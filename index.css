@@ -1,0 +1,202 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: darkgreen;
+    text-decoration: none;
+}
+.logo {
+    color: darkgreen;
+    font-size: 25px;
+    font-weight: bold;
+}
+.section1 {
+    position: relative;
+}
+
+.section1 img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+}
+.texte-accueil {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: rgb(255, 255, 255);
+}
+.texte-accueil h1 {
+    font-size: 40px;
+}
+.section3 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.section3 img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.titre-recettes {
+    text-align: center;
+    color: darkgreen;
+    margin: 35px 0;
+}
+
+.recette {
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(167, 219, 167);
+    overflow: hidden;
+}
+.recette img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.recette h2 {
+    color: darkgreen;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.recette p {
+    margin: 15px;
+    color: #565353;
+}
+
+.recette a {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.recette a:last-child {
+    display: inline-block;
+    margin: 0 15px 20px;
+    font-weight: bold;
+}
+header .navbar {
+    width: 100%;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: darkgreen;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EAF2E9;
+    padding: 25px 40px;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.logofooter {
+    color: darkgreen;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.liensfooter {
+    display: flex;
+    gap: 25px;
+}
+
+.liensfooter a {
+    color: rgb(30, 74, 30);
+    text-decoration: none;
+}
+
+.copyright {
+    color: #000000;
+    font-size: 13px;
+}
+
+
+.preparecette {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 30px;
+}
+
+.imgrecette {
+    width: 45%;
+    flex-shrink: 0;
+}
+
+.imgrecette img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+}
+
+.policerecette {
+    flex: 1;
+    min-width: 0;
+}
+.ingredients {
+    padding-left: 25px;
+    line-height: 1.7;
+}
+.preparation {
+    padding-left: 30px;
+    line-height: 2;
+}
+
+.apropos {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.apropos h1 {
+    color: darkgreen;
+    text-align: center;
+}
+
+.apropos h2 {
+    color: darkgreen;
+}
+
+.apropos section {
+    margin-bottom: 40px;
+}
+
+.equipe {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+}
+
+.equipe h3 {
+    color: darkgreen;
+}
